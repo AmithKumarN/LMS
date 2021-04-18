@@ -36,11 +36,11 @@ create table book
     title varchar(100),
     author varchar(50),
     genre varchar(50),
-    publication varchar(50),
-    year int
+    publisher varchar(50),
+    qty int
 );
 
-insert into book values("9781612680019", "Rich Dad Poor Dad", "Robert Kiyosaki", "Finance", "Paperback", 1997);
+insert into book values("9781612680019", "Rich Dad Poor Dad", "Robert Kiyosaki", "Finance", "Paperback", 10);
 
 create table transaction
 (
