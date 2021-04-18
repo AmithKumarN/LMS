@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Account</title>
+</head>
+<style>
+body {
+	margin:0;
+}
+
+html {
+	min-height: 100%;
+	background-image: url(login.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: grey;
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+
+.navbar a {
+	float: right;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.navbar a:hover {
+	background: green;
+	color: black;
+}
+
+.centered {
+	position: absolute;
+	background-color: #6087a0;
+	opacity: .6;
+	color: white;
+	top: 50%;
+	left: 50%;
+	padding: 50px 70px;
+	transform: translate(-50%, -50%);
+}
+
+input{
+	border-radius: 50px;
+	height: 30px;
+	width: 200px;
+}
+
+button{
+	height: 40px; 
+	width: 80px; 
+	font-size: 20px;
+}
+</style>
+<body>
+	<header style="z-index: 1;">
+		<nav class="navbar">
+			<a href="feedback.html">FEEDBACK</a>
+			<a href="homepage.html">HOME</a>
+			<p style="margin-left: 10px;">ONLINE LIBRARY MANAGEMENT SYSTEM</p>
+		</nav>
+	</header>
+	<div>
+		<div class="centered" id="myHeader" style="text-align: center; font-size: 20px; margin-top: 270px;">
+			<h2>Create Account</h2>
+			<form>
+				<label for="userid">UserID &emsp;&emsp;&emsp; :&emsp;</label>
+				<input type="text" name="userid"><br><br><br>
+				<label for="name">Name &emsp;&emsp;&emsp;&ensp; :&emsp;</label>
+				<input type="text" name="name"><br><br><br>	
+				<label for="password">Password &emsp;&emsp;&nbsp; :&emsp;</label>
+				<input type="password" name="password"><br><br><br>
+				<label for="emailid">Email ID &emsp;&emsp;&nbsp; :&emsp;</label>
+				<input type="text" name="username"><br><br><br>
+				<label for="dob">Date of birth &ensp; :&emsp;</label>
+				<input type="date" name="dob"><br><br><br>	
+				<label for="age">Age &emsp;&emsp;&emsp;&emsp; :&emsp;</label>
+				<input type="text" name="age"><br><br><br>
+				<label for="gender">Gender &emsp;&emsp;&ensp; :&emsp;</label>
+				<input type="text" name="gender"><br><br><br>
+				<label for="year">Year &emsp;&emsp;&emsp;&ensp; :&emsp;</label>
+				<input type="text" name="year"><br><br><br>
+				<label for="dept">Department &ensp;&nbsp;:&emsp;</label>
+				<input type="text" name="dept"><br><br><br>	
+				<label for="type">Type &emsp;&emsp;&emsp; :&emsp;</label>
+				<input type="text" placeholder="Student/faculty" name="type"><br><br><br>
+				<button type="submit" value="login">Create</button>&emsp;
+				<button type="reset" value="cancel">Cancel</button><br><br>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
