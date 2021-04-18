@@ -13,7 +13,6 @@ public class updatebook extends HttpServlet
 		{  
 			Class.forName("com.mysql.cj.jdbc.Driver");   
 			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/"+"lms","root","amith");   
-			Statement stmt = con.createStatement();  
 			
 			String Qty = request.getParameter("Qty");
 			String ISBN = request.getParameter("ISBN");

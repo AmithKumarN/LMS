@@ -1,6 +1,33 @@
 <web-app>
 
     <servlet>
+        <servlet-name>liblogin</servlet-name>
+        <servlet-class>liblogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>liblogin</servlet-name>
+        <url-pattern>/liblogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>faclogin</servlet-name>
+        <servlet-class>faclogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>faclogin</servlet-name>
+        <url-pattern>/faclogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>stulogin</servlet-name>
+        <servlet-class>stulogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>stulogin</servlet-name>
+        <url-pattern>/stulogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>addbook</servlet-name>
         <servlet-class>addbook</servlet-class>
     </servlet>
@@ -34,6 +61,33 @@
     <servlet-mapping>
         <servlet-name>updatebook</servlet-name>
         <url-pattern>/updatebook</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>searchisbn</servlet-name>
+        <servlet-class>searchisbn</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>searchisbn</servlet-name>
+        <url-pattern>/searchisbn</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>searchtitle</servlet-name>
+        <servlet-class>searchtitle</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>searchtitle</servlet-name>
+        <url-pattern>/searchtitle</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>searchauthor</servlet-name>
+        <servlet-class>searchauthor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>searchauthor</servlet-name>
+        <url-pattern>/searchauthor</url-pattern>
     </servlet-mapping>
 
 </web-app>
