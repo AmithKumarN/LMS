@@ -127,6 +127,15 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>returnbook</servlet-name>
+        <servlet-class>returnbook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>returnbook</servlet-name>
+        <url-pattern>/returnbook</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>reservebook</servlet-name>
         <servlet-class>reservebook</servlet-class>
     </servlet>
