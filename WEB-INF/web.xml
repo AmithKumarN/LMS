@@ -1,6 +1,24 @@
 <web-app>
 
     <servlet>
+        <servlet-name>createacc</servlet-name>
+        <servlet-class>createacc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>createacc</servlet-name>
+        <url-pattern>/createacc</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>createlibacc</servlet-name>
+        <servlet-class>createlibacc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>createlibacc</servlet-name>
+        <url-pattern>/createlibacc</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>liblogin</servlet-name>
         <servlet-class>liblogin</servlet-class>
     </servlet>

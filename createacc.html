@@ -74,7 +74,7 @@ button{
 	<div>
 		<div class="centered" id="myHeader" style="text-align: center; font-size: 20px; margin-top: 270px;">
 			<h2>Create Account</h2>
-			<form>
+			<form action="createacc" method="post">
 				<label for="userid">UserID &emsp;&emsp;&emsp; :&emsp;</label>
 				<input type="text" name="userid"><br><br><br>
 				<label for="name">Name &emsp;&emsp;&emsp;&ensp; :&emsp;</label>
@@ -82,19 +82,17 @@ button{
 				<label for="password">Password &emsp;&emsp;&nbsp; :&emsp;</label>
 				<input type="password" name="password"><br><br><br>
 				<label for="emailid">Email ID &emsp;&emsp;&nbsp; :&emsp;</label>
-				<input type="text" name="username"><br><br><br>
+				<input type="text" name="emailid"><br><br><br>
 				<label for="dob">Date of birth &ensp; :&emsp;</label>
 				<input type="date" name="dob"><br><br><br>	
 				<label for="age">Age &emsp;&emsp;&emsp;&emsp; :&emsp;</label>
 				<input type="text" name="age"><br><br><br>
 				<label for="gender">Gender &emsp;&emsp;&ensp; :&emsp;</label>
 				<input type="text" name="gender"><br><br><br>
-				<label for="year">Year &emsp;&emsp;&emsp;&ensp; :&emsp;</label>
-				<input type="text" name="year"><br><br><br>
 				<label for="dept">Department &ensp;&nbsp;:&emsp;</label>
 				<input type="text" name="dept"><br><br><br>	
 				<label for="type">Type &emsp;&emsp;&emsp; :&emsp;</label>
-				<input type="text" placeholder="Student/faculty" name="type"><br><br><br>
+				<input type="text" placeholder="Student/Faculty" name="type"><br><br><br>
 				<button type="submit" value="login">Create</button>&emsp;
 				<button type="reset" value="cancel">Cancel</button><br><br>
 			</form>
