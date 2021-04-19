@@ -108,4 +108,40 @@
         <url-pattern>/searchauthor</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>borrowbook</servlet-name>
+        <servlet-class>borrowbook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>borrowbook</servlet-name>
+        <url-pattern>/borrowbook</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>renewbook</servlet-name>
+        <servlet-class>renewbook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>renewbook</servlet-name>
+        <url-pattern>/renewbook</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>reservebook</servlet-name>
+        <servlet-class>reservebook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>reservebook</servlet-name>
+        <url-pattern>/reservebook</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>checkfine</servlet-name>
+        <servlet-class>checkfine</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>checkfine</servlet-name>
+        <url-pattern>/checkfine</url-pattern>
+    </servlet-mapping>
+
 </web-app>

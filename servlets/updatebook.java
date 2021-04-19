@@ -14,12 +14,12 @@ public class updatebook extends HttpServlet
 			Class.forName("com.mysql.cj.jdbc.Driver");   
 			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/"+"lms","root","amith");   
 			
-			String Qty = request.getParameter("Qty");
+			Integer Qty = Integer.parseInt(request.getParameter("Qty"));
 			String ISBN = request.getParameter("ISBN");
 
 			PreparedStatement ps=con.prepareStatement("update book set qty=? where isbn =?");
 			
-			ps.setString(1, Qty); 
+			ps.setInt(1, Qty); 
 			ps.setString(2, ISBN); 
 			int i=ps.executeUpdate();
 			if(i!=0)

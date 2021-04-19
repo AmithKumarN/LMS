@@ -15,7 +15,7 @@ public class addbook extends HttpServlet
 		String Author = request.getParameter("Author");  
 		String Genre = request.getParameter("Genre");  
 		String Publisher = request.getParameter("Publisher");
-		String Qty = request.getParameter("Qty");
+		Integer Qty = Integer.parseInt(request.getParameter("Qty"));
 		
 		try
 		{  
@@ -28,7 +28,7 @@ public class addbook extends HttpServlet
 			ps.setString(3,Author);  
 			ps.setString(4,Genre);  
 			ps.setString(5,Publisher);
-			ps.setString(6,Qty);  
+			ps.setInt(6,Qty);  
 			
 			int i = ps.executeUpdate();  
 			if(i>0)  
