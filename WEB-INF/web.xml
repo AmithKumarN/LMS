@@ -153,4 +153,13 @@
         <url-pattern>/checkfine</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>forgotpassword</servlet-name>
+        <servlet-class>forgotpassword</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>forgotpassword</servlet-name>
+        <url-pattern>/forgotpassword</url-pattern>
+    </servlet-mapping>
+
 </web-app>
